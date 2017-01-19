@@ -1,5 +1,5 @@
 days = "Mon Tues Wed Thu Fri Sat Sun"
-# \n put each month on a new line
+# \n put each month on a new line this means "new line character"
 months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 
 puts "Here are the days: #{days}"
