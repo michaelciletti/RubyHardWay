@@ -20,7 +20,7 @@ puts "What kind of computer do you have? ", prompt
 computer = $stdin.gets.chomp
 
 puts """
-Alright, so you said #{likes} about liking me.  You are only #{age} years old.
+Alright #{user_name}, so you said #{likes} about liking me.  You are only #{age} years old.
 You live in #{lives}.  Not sure where that is.
 And you have a #{computer} computer.  Nice.
 """
