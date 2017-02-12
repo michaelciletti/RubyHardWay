@@ -26,7 +26,7 @@ puts "OR State has: #{cities['OR']}"
 # puts some states
 puts '-' * 10
 puts "Michigan's abbreviation is: #{states['Michigan']}"
-puts "Florida's abbreviation is: #{states[Florida]}"
+puts "Florida's abbreviation is: #{states['Florida']}"
 
 # do it by using the state then cities dict
 puts "-" * 10
