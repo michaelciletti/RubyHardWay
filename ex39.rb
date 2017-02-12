@@ -36,7 +36,7 @@ puts "Florida has: #{cities[states['Florida']]}"
 # puts every state abbreviation
 puts '-' * 10
 states.each do |state, abbrev|
-	puts "state} is abbreviated #{abbrev}"
+	puts "#{state} is abbreviated #{abbrev}"
 end
 
 #puts every city in state
@@ -63,4 +63,4 @@ end
 #  fefault values using //= with the nil result
 city = cities['TX']
 city ||= 'Does Not Exist'
-puts "The city for the state 'TX is: #{city}"
+puts "The city for the state 'TX' is: #{city}"
